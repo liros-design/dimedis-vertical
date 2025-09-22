@@ -11,8 +11,11 @@ body {
   display: block;
   width: 720px;
   height: 1280px;
-  background: linear-gradient(to right, #5e84ff, #fff799);
   padding: 40px;
+}
+
+.background-class{
+  background: linear-gradient(to right, #5e84ff, #fff799);
 }
 
 .title {
