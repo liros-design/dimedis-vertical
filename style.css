@@ -19,11 +19,13 @@ body {
   background: linear-gradient(to right, #5e84ff, #fff799);
   width: 720px;
   height: 1280px;
+  padding: 40px;
+  justify-content: left;
 
 }
 
 .title {
-  font-size: 86px;
+  font-size: 74px;
   margin-bottom: 20px;
   font-weight: 400;
   color: white;
