@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("https://github.com/liros-design/GSAP-Test/raw/11c5c5db9a173ad27bde75089ddd06763d2dc08a/TTNormsPro-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "TT Norms Pro", sans-serif;
+  display: block;
+  width: 720px;
+  height: 1280px;
+  background: linear-gradient(to right, #5e84ff, #fff799);
+  padding: 40px;
+}
+
+.title {
+  font-size: 100px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: white;
+  white-space: nowrap;
+}
+
+.dimedis-logo {
+  max-width: 100px;
+}
