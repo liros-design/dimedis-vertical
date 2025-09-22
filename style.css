@@ -10,7 +10,7 @@ body {
   font-family: "TT Norms Pro", sans-serif;
   display: flex;
   align: vertical;
-  width: 1280px;
+  width: 1080px;
   height: 1920px;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
 
 .background-class{
   background: linear-gradient(to right, #5e84ff, #fff799);
-  width: 1280px;
+  width: 1080px;
   height: 1920px;
   padding: 60px;
   gap: 40px;
