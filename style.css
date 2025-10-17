@@ -1,53 +1,71 @@
-@font-face {
-  font-family: "TT Norms Pro";
-  src: url("https://github.com/liros-design/GSAP-Test/raw/11c5c5db9a173ad27bde75089ddd06763d2dc08a/TTNormsPro-Regular.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  font-family: "TT Norms Pro", sans-serif;
-  display: flex;
-  align: vertical;
   width: 1080px;
   height: 1920px;
   margin: 0;
   padding: 0;
-
-}
-
-.background-class{
-  background: linear-gradient(to right, #5e84ff, #fff799);
-  width: 1080px;
-  height: 1920px;
-  padding: 60px;
-  gap: 40px;
-  justify-content: left;
-
-}
-
-.title {
-  font-size: 100px;
-  font-weight: 400;
-  color: white;
- 
-}
-
-.text {
-  font-size: 200px;
-  font-weight: 700;
-  color: white;
- 
-}
-
-.event-logo {
   display: flex;
-  padding-top: 800px;
- 
+  justify-content: center;
+  align-items: center;
+  background-color: #dddddd;
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg");
+
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
-.event-logo img {
-  max-width: 200px;
-  
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 300px;
+  display: block;
+}
+
+.question-text {
+  opacity: 0;
+  transform: translateX(-100px);
+
+  font-weight: 400;
+}
+
+.answers-container {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+.answer-1 {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.answer-2 {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.answer-3 {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.image-under {
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.image-under img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
 }
