@@ -8,7 +8,7 @@ body {
   align-items: center;
   background-color: #dddddd;
   background-image:
-  linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+  linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
   url("https://github.com/liros-design/dimedis-vertical/blob/main/background-image.png?raw=true");
 
   background-size: cover;
