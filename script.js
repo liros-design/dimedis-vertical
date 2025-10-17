@@ -77,7 +77,7 @@ gsap.fromTo(".loader",
   {
     scaleX: 0,                  // shrink to zero
     duration: 20,               // takes 24 seconds
-    delay: 4, 
+    delay: 5, 
     ease: "linear",             // smooth
     repeat: -1,                 // infinite loop
     repeatDelay: 30              // restart
