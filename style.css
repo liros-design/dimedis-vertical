@@ -7,7 +7,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #dddddd;
-  background-image: url("https://github.com/liros-design/dimedis-vertical/blob/main/background-image.png?raw=true");
+  background-image:
+  linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+  url("https://github.com/liros-design/dimedis-vertical/blob/main/background-image.png?raw=true");
 
   background-size: cover;
   background-position: center;
