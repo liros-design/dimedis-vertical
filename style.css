@@ -95,7 +95,7 @@ width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  width: 1000px; /* adjust as needed */
+  width: 600px; /* adjust as needed */
   height: auto;
   z-index: 10;
 }
