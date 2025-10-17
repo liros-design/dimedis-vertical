@@ -33,6 +33,7 @@ body {
 .logo img {
   width: 300px;
   display: block;
+  position: absolute;
 }
 
 .question-text {
@@ -71,6 +72,7 @@ body {
 .image-under {
   margin-top: auto;
   margin-right: auto;
+  position: absolute;
 }
 
 .image-under img {
