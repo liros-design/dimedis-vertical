@@ -88,11 +88,3 @@ width: 100%;
   background-color: brown;
 }
 
-
-.custom-image {
-  align: center;
-  position: fixed;
-  width: 400px; /* adjust as needed */
-  height: auto;
-  z-index: 10;
-}
