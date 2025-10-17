@@ -90,12 +90,12 @@ width: 100%;
 
 
 .custom-image {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  width: 600px; /* adjust as needed */
+  width: 400px; /* adjust as needed */
   height: auto;
   z-index: 10;
 }
