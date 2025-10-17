@@ -15,11 +15,13 @@ body {
   background-position: center;
   font-family: "Roboto", sans-serif;
   overflow: hidden;
+  position: relative; /* for absolute positioning if needed */
+
 }
 
 .wrapper {
-  width: 1080px;
-  height: 1920px;
+  width: 100vw;
+  height: 100vh;
   padding: 32px;
   font-size: 32px;
   display: flex;
