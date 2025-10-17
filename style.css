@@ -36,6 +36,7 @@ body {
   transform: translateX(-80px);
   font-size: 34px;
   font-weight: 600;
+  width: 100%;
 }
 
 .answers-container {
