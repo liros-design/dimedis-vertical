@@ -25,7 +25,7 @@ tl.fromTo(
 
 // 29s: highlight correct answer, fade out others
 tl.to(".answer-3", 
-  { scale: 1.2, fontWeight: 800, duration: 0.5, ease: "power2.out" }, 
+  { x: 0, scale: 1.1, fontWeight: 800, duration: 0.5, ease: "power2.out" }, 
   29
 );
 tl.to([".answer-1", ".answer-2"], 
