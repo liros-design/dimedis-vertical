@@ -92,3 +92,9 @@ width: 100%;
   background-color: brown;
 }
 
+.logo-bigger {
+  align: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 0%;
+}
