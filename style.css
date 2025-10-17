@@ -34,7 +34,7 @@ body {
   opacity: 0;
   transform: translateX(-100px);
   font-size: 34px;
-  font-weight: medium;
+  font-weight: 600;
 }
 
 .answers-container {
