@@ -73,3 +73,8 @@ body {
   border-radius: 12px;
   display: block;
 }
+
+p {
+margin: 0;
+width: 100%;
+}
