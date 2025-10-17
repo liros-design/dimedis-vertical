@@ -57,4 +57,3 @@ tl.set(
   { x: -32, opacity: 0, scale: 1, fontWeight: 400 }
 );
 tl.set(".custom-image", { scale: 0.5, opacity: 0 });
-
