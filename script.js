@@ -25,7 +25,7 @@ tl.fromTo(
 
 // 29s: highlight correct answer, fade out others
 tl.to(".answer-3", 
-  { x: 32, y:-16, fontWeight: 800, duration: 0.5, ease: "power2.out" }, 
+  { fontWeight: 800, duration: 0.5, ease: "power2.out" }, 
   29
 );
 tl.to([".answer-1", ".answer-2"], 
@@ -33,27 +33,26 @@ tl.to([".answer-1", ".answer-2"],
   29
 );
 
-// 29.5s: hide logo and bottom image
-tl.to([".logo", ".image-under"], 
-  { opacity: 0, duration: 0.5 }, 
-  29.5
+// 32s: fade out everything except image-final
+tl.to(
+  [".question-text", ".answer-3", ".loader", ".logo", ".image-under"], 
+  { opacity: 0, duration: 0.5, ease: "power2.out" },
+  32 // 3s after correct answer highlight
 );
 
-// 30s: show custom image centered, keep for 5s
+// 32s: show image-final in center
 tl.fromTo(
-  ".custom-image", 
-  { opacity: 0, scale: 0.5 }, 
-  { opacity: 1, scale: 1, duration: 0.5, ease: "power3.out" }, 
-  30
-);
-tl.to(".custom-image", 
-  { opacity: 0, duration: 0.5, delay: 5 }, 
-  30
+  ".image-final",
+  { opacity: 0, scale: 0.5 },
+  { opacity: 1, scale: 1, duration: 0.5, ease: "power3.out" },
+  32
 );
 
-// 35.5s: reset everything for next cycle
+// Optional: hide image-final before loop restart
+tl.to(".image-final", { opacity: 0, duration: 0.5, delay: 5 });
+
+// Reset everything for next cycle
 tl.set(
-  [".question-text", ".answer-1", ".answer-2", ".answer-3", ".loader", ".logo", ".image-under"], 
+  [".question-text", ".answer-1", ".answer-2", ".answer-3", ".loader", ".logo", ".image-under", ".image-final"], 
   { x: -32, opacity: 0, scale: 1, fontWeight: 400 }
 );
-tl.set(".custom-image", { scale: 0.5, opacity: 0 });
